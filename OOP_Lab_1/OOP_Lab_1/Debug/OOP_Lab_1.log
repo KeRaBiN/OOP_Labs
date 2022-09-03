@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Projects\University Labs\OOP_Lab_1\OOP_Lab_1\Source.cpp(55,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\University Labs\OOP_Lab_1\OOP_Lab_1\Source.cpp(102,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  OOP_Lab_1.vcxproj -> D:\Projects\University Labs\OOP_Lab_1\Debug\OOP_Lab_1.exe
