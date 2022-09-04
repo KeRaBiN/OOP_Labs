@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(96,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(120,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(123,39): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(126,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(129,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(157,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(173,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\University Labs\OOP_Lab_3\OOP_Lab_3\Source.cpp(189,22): warning C4018: <: несоответствие типов со знаком и без знака
+  OOP_Lab_3.vcxproj -> D:\Projects\University Labs\OOP_Lab_3\Debug\OOP_Lab_3.exe
