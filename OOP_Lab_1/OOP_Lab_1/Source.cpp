@@ -2,11 +2,11 @@
 
 using namespace std;
 
-class trapezoid
+class Trapezoid
 {
 public:
 
-	void CalculateArea();
+	void calculateArea();
 
 	void print_sqrt();
 
@@ -19,95 +19,95 @@ public:
 	float getHeight();
 	float getArea();
 
-	trapezoid();
-	trapezoid(float f1, float f2, float h);
-	~trapezoid();
+	Trapezoid();
+	Trapezoid(float f1, float f2, float h);
+	~Trapezoid();
 
 private:
 
-	float F1, F2, H;
-	float S = 0;
+	float foundation_1, foundation_2, height;
+	float square = 0;
 };
 
-trapezoid::trapezoid()
+Trapezoid::Trapezoid()
 {
 	cout << "Object was constructed with default values." << endl << endl;
-	F1 = 0;
-	F2 = 0;
-	H = 0;
+	foundation_1 = 0;
+	foundation_2 = 0;
+	height = 0;
 }
 
-trapezoid::trapezoid(float f1, float f2, float h)
+Trapezoid::Trapezoid(float f1, float f2, float h)
 {
 	cout << "Object was constructed with entered values." << endl << endl;
-	F1 = f1;
-	F2 = f2;
-	H = h;
+	foundation_1 = f1;
+	foundation_2 = f2;
+	height = h;
 }
 
-trapezoid::~trapezoid()
+Trapezoid::~Trapezoid()
 {
 	cout << "Object was destructed." << endl;
 }
 
-void trapezoid::CalculateArea()
+void Trapezoid::calculateArea()
 {
-	S = 0.5 * H * (F1 + F2);
+	square = 0.5 * height * (foundation_1 + foundation_2);
 }
 
-void trapezoid::print_sqrt()
+void Trapezoid::print_sqrt()
 {
-	cout << " Foundatin_1 = " << F1 << endl;
-	cout << " Foundatin_2 = " << F2 << endl;
-	cout << " Height = " << H << endl;
-	cout << " Area = " << S << endl << endl;
+	cout << " Foundatin_1 = " << foundation_1 << endl;
+	cout << " Foundatin_2 = " << foundation_2 << endl;
+	cout << " Height = " << height << endl;
+	cout << " Square = " << square << endl << endl;
 }
 
-void trapezoid::setFirstFoundation(float f1)
+void Trapezoid::setFirstFoundation(float f1)
 {
-	F1 = f1;
+	foundation_1 = f1;
 }
 
-void trapezoid::setSecondFoundation(float f2)
+void Trapezoid::setSecondFoundation(float f2)
 {
-	F2 = f2;
+	foundation_2 = f2;
 }
 
-void trapezoid::setHeight(float h)
+void Trapezoid::setHeight(float h)
 {
-	H = h;
+	height = h;
 }
 
-float trapezoid::getFirstFoundation()
+float Trapezoid::getFirstFoundation()
 {
-	return F1;
+	return foundation_1;
 }
 
-float trapezoid::getSecondFoundation()
+float Trapezoid::getSecondFoundation()
 {
-	return F2;
+	return foundation_2;
 }
 
-float trapezoid::getHeight()
+float Trapezoid::getHeight()
 {
-	return H;
+	return height;
 }
 
-float trapezoid::getArea()
+float Trapezoid::getArea()
 {
-	return S;
+	return square;
 }
 
 void main()
 {
-	trapezoid tr1;
+	Trapezoid tr1;
 
-	tr1.CalculateArea();
+	tr1.calculateArea();
 	tr1.print_sqrt();
 
-	trapezoid tr2(15, 5, 6);
+	Trapezoid tr2(15, 5, 6);
 
-	tr2.CalculateArea();
+	tr2.calculateArea();
 	tr2.print_sqrt();
 
 	system("pause");

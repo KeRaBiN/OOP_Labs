@@ -201,6 +201,8 @@ void main()
 				}
 			}
 			break;
+		case '0':
+			break;
 		default:
 			cout << "There is no such command(" << endl;
 			break;

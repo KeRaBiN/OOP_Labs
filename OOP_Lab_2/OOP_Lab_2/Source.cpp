@@ -5,13 +5,13 @@
 
 using namespace std;
 
-class sphere
+class Sphere
 {
 public:
 
-	friend sphere frd(sphere s1, sphere s2);
+	friend Sphere frd(Sphere s1, Sphere s2);
 
-	void CalculateArea();
+	void calculateArea();
 
 	void print_val();
 
@@ -20,78 +20,78 @@ public:
 	float getRadius();
 	float getArea();
 
-	sphere();
-	sphere(float r);
-	~sphere();
+	Sphere();
+	Sphere(float r);
+	~Sphere();
 
 private:
 
-	float R;
-	float V = 0;
+	float radius;
+	float volume = 0;
 
 };
 
-sphere::sphere()
+Sphere::Sphere()
 {
 	cout << "Object was constructed with default values." << endl << endl;
-	R = 0;
+	radius = 0;
 }
 
-sphere::sphere(float r)
+Sphere::Sphere(float r)
 {
 	cout << "Object was constructed with entered values." << endl << endl;
-	R = r;
+	radius = r;
 }
 
-sphere::~sphere()
+Sphere::~Sphere()
 {
 	cout << "Object was destructed." << endl;
 }
 
-void sphere::CalculateArea()
+void Sphere::calculateArea()
 {
-	V = ((float)4 / 3) * pow(R, 3) * M_PI;
+	volume = ((float)4 / 3) * pow(radius, 3) * M_PI;
 }
 
-void sphere::print_val()
+void Sphere::print_val()
 {
-	cout << " Radius = " << R << endl;
-	cout << " Area = " << V << endl << endl;
+	cout << " Radius = " << radius << endl;
+	cout << " Volume = " << volume << endl << endl;
 }
 
-void sphere::setRadius(float r)
+void Sphere::setRadius(float r)
 {
-	R = r;
+	radius = r;
 }
 
-float sphere::getRadius()
+float Sphere::getRadius()
 {
-	return R;
+	return radius;
 }
 
-float sphere::getArea()
+float Sphere::getArea()
 {
-	return V;
+	return volume;
 }
 
 void main()
 {
-	sphere s1;
+	Sphere s1;
 
-	s1.CalculateArea();
+	s1.calculateArea();
 	s1.print_val();
 
-	sphere s2(8);
+	Sphere s2(8);
 
-	s2.CalculateArea();
+	s2.calculateArea();
 	s2.print_val();
 
-	sphere s3(5);
+	Sphere s3(5);
 
-	s3.CalculateArea();
+	s3.calculateArea();
 	s3.print_val();
 
-	sphere s4 = frd(s2, s3);
+	Sphere s4 = frd(s2, s3);
 
 	cout << "\nNew sphere:" << endl;
 	s4.print_val();
@@ -99,10 +99,10 @@ void main()
 	system("pause");
 }
 
-sphere frd(sphere s1, sphere s2)
+Sphere frd(Sphere s1, Sphere s2)
 {
-	sphere s;
-	s.V = s1.V + s2.V;
-	s.R = pow((3 * s.V) / (4 * M_PI), (float)1 / 3);
+	Sphere s;
+	s.volume = s1.volume + s2.volume;
+	s.radius = pow((3 * s.volume) / (4 * M_PI), (float)1 / 3);
 	return s;
 }
