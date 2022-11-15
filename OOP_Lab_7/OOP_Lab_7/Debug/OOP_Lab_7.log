@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\Projects\University Labs\OOP_Lab_7\OOP_Lab_7\Source.cpp(11,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Triangle.cpp
+D:\Projects\University Labs\OOP_Lab_7\OOP_Lab_7\Triangle.cpp(6,16): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  OOP_Lab_7.vcxproj -> D:\Projects\University Labs\OOP_Lab_7\Debug\OOP_Lab_7.exe
