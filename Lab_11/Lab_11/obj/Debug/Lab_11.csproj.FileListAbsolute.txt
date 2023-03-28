@@ -1,0 +1,7 @@
+H:\University homework\OOP\Lab_11\Lab_11\bin\Debug\Lab_11.exe.config
+H:\University homework\OOP\Lab_11\Lab_11\bin\Debug\Lab_11.exe
+H:\University homework\OOP\Lab_11\Lab_11\bin\Debug\Lab_11.pdb
+H:\University homework\OOP\Lab_11\Lab_11\obj\Debug\Lab_11.csproj.AssemblyReference.cache
+H:\University homework\OOP\Lab_11\Lab_11\obj\Debug\Lab_11.csproj.CoreCompileInputs.cache
+H:\University homework\OOP\Lab_11\Lab_11\obj\Debug\Lab_11.exe
+H:\University homework\OOP\Lab_11\Lab_11\obj\Debug\Lab_11.pdb
