@@ -1,0 +1,7 @@
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\bin\Debug\Lab_10_2.exe.config
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\bin\Debug\Lab_10_2.exe
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\bin\Debug\Lab_10_2.pdb
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\obj\Debug\Lab_10_2.csproj.AssemblyReference.cache
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\obj\Debug\Lab_10_2.csproj.CoreCompileInputs.cache
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\obj\Debug\Lab_10_2.exe
+H:\University homework\OOP\Lab_10\Lab_10_2\Lab_10_2\obj\Debug\Lab_10_2.pdb
