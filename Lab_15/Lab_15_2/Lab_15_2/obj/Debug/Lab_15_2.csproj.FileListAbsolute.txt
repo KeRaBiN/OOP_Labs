@@ -1,0 +1,10 @@
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\bin\Debug\Lab_15_2.exe.config
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\bin\Debug\Lab_15_2.exe
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\bin\Debug\Lab_15_2.pdb
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.csproj.AssemblyReference.cache
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.Form1.resources
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.Properties.Resources.resources
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.csproj.GenerateResource.cache
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.csproj.CoreCompileInputs.cache
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.exe
+H:\University homework\OOP\Lab_15\Lab_15_2\Lab_15_2\obj\Debug\Lab_15_2.pdb
